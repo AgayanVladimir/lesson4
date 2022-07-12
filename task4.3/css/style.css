@@ -1,0 +1,168 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFFAF3;
+	background-image: url(../img/back.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+
+
+
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+header {
+	padding-top: 43px;
+	font-family: 'Open Sans';
+}
+
+.header__block {
+	border-bottom: 1px solid #C08D5D;
+	display: inline-block;
+	padding-right: 50px;
+	padding-bottom: 44px;
+}
+
+.logo {
+	vertical-align: middle;
+}
+
+.menu {
+	display: inline-block;
+	margin-left: 84px;
+}
+
+
+
+.menu__item {
+	display: inline-block;
+
+
+}
+
+.menu__item a {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 27px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.menu__item:not(:first-child) {
+	margin-left: 52px;
+}
+
+._firstItem a {
+	color: #C08D5D;
+}
+
+
+main {
+	padding-top: 138px;
+	padding-bottom: 69px;
+}
+
+.main__title {
+	text-transform: uppercase;
+	font-family: 'Yeseva One';
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 81px;
+	letter-spacing: 0.06em;
+	color: #3F4042;
+
+}
+
+.main__title::after {
+	content: '';
+	background-image: url(../img/line.svg);
+	display: block;
+	width: 165px;
+	height: 14px;
+	background-repeat: no-repeat;
+
+	margin-top: 45px;
+}
+
+.main__title span {
+	display: block;
+	text-transform: none;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 58px;
+	letter-spacing: 0.06em;
+
+}
+
+.main__title span::after {
+	content: '';
+	background-image: url(../img/Logo.svg);
+	display: inline-block;
+	width: 45px;
+	height: 69px;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	margin-left: 8px;
+
+}
+
+
+
+.main__text {
+	margin-top: 26px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 147.6%;
+	letter-spacing: 0.06em;
+	color: #3F4042;
+	max-width: 535px;
+
+}
+
+.main__button {
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 15px;
+	background-color: #FFFAF3;
+	border: 2px solid #C08D5D;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 147.6%;
+	font-family: 'Open Sans';
+	letter-spacing: 0.06em;
+	margin-top: 72px;
+	color: #3F4042;
+}
+
+
+
+.main__button::after {
+	content: '\21C0';
+	display: inline-block;
+	margin-left: 11px;
+	padding: 29px;
+	font-style: 20px;
+	color: white;
+	background-color: #C08D5D;
+
+
+}
+
+.main__mouse {
+	display: block;
+	background-image: url(../img/mouse.svg);
+	background-repeat: no-repeat;
+	width: 33px;
+	height: 72px;
+	margin: 63px auto;
+
+}

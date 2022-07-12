@@ -1,0 +1,106 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: rgb(90, 165, 140);
+	padding: 30px 0px 20px 0px;
+
+}
+
+header .container {
+	overflow: auto;
+}
+
+.header__logo {
+	float: left;
+
+}
+
+.header__menu {
+	display: inline-block;
+	float: right;
+	margin: 35px 0px 0px 0px;
+
+}
+
+.menu__list {}
+
+.menu__item {
+	display: inline-block;
+	margin: 0px 0px 0px 40px;
+
+}
+
+.menu__item a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.something {
+	padding: 150px 0px 150px 0px;
+	background-image: linear-gradient(to right, rgb(0, 167, 167), rgba(0, 255, 255, 0.263));
+}
+
+
+
+.something__title {
+	font-size: 56px;
+}
+
+.something__text {
+	opacity: 0.7;
+}
+
+.something__button button {
+	padding: 15px 40px 15px 40px;
+	border-radius: 10px;
+	color: white;
+	background-color: rgb(65, 65, 65);
+	margin: 20px 0px 0px 0px;
+	cursor: pointer;
+
+}
+
+.info {
+	padding: 70px 0px 70px 0px;
+}
+
+.info__img {
+	width: 33.333%;
+	vertical-align: top;
+}
+
+.info__text {
+	display: inline-block;
+	max-width: 666px;
+	margin: 15px 0px 0px 10px;
+
+	line-height: 20px;
+
+
+}
+
+footer {
+	background-color: rgb(65, 65, 65);
+	padding: 40px 0px 40px 0px;
+
+}
+
+footer .container {
+	overflow: auto;
+}
+
+footer p {
+	color: rgba(255, 255, 255, 0.608);
+	float: right;
+}
